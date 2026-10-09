@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+    background-color: #fff5f8;
+    color: #5b4b5f;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header h1 {
+    color: #d86b9b;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header p {
+    color: #8d6b83;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Card */
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    border: 2px solid #f3c6d9;
+    box-shadow: 0 8px 20px rgba(216, 107, 155, 0.15);
+}
+
+/* Input groups */
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: #a6537d;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 11px;
+    border: 2px solid #f1c4d8;
+    border-radius: 10px;
+    background-color: #fffafd;
+    color: #5b4b5f;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #d86b9b;
+    background-color: #fff4f8;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 12px;
+    background-color: #e88ab1;
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d86b9b;
+}
+
+/* Result */
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff0f6;
+    border: 2px solid #f3c6d9;
+    border-radius: 14px;
+}
+
+.result h2 {
+    color: #c45b88;
+    margin-bottom: 8px;
+}
+
+.result p {
+    color: #8d6b83;
+}
+
+.result h3 {
+    color: #d14f87;
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #a98298;
+    font-size: 13px;
+}
+
